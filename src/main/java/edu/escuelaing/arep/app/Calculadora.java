@@ -6,8 +6,8 @@ public class Calculadora {
 		return java.lang.Math.cos(value);
 	}
 	
-	public Double sin(double value) {
-		return java.lang.Math.sin(value);
+	public Double exp(double value) {
+		return java.lang.Math.exp(value);
 	}
 	
 }

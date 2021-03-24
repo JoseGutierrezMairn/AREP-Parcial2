@@ -23,13 +23,13 @@ public class SparkWebServer
 
 
 	    private static Object getSin(Request request, Response response) {
-
+	    	Double value = Double.valueOf(request.queryParams("value"));
 	        return null;
 	    }
 
 
 	    private static Object getCos(Request request, Response response) {
-
+	    	Double value = Double.valueOf(request.queryParams("value"));
 	        return null;
 	    }
 

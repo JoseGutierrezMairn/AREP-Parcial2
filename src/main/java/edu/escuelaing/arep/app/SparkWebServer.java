@@ -16,13 +16,13 @@ public class SparkWebServer
 	    public static void main(String ... args){
 	        port(getPort());
 	        get("/hello", (req,res) -> "Hello!" );
-	        get("/sin", SparkWebServer::getSin);
+	        get("/exp", SparkWebServer::getExp);
 	        get("/cos",SparkWebServer::getCos);
 
 	    }
 
 
-	    private static Object getSin(Request request, Response response) {
+	    private static Object getExp(Request request, Response response) {
 	    	Double value = Double.valueOf(request.queryParams("value"));
 	        return null;
 	    }
